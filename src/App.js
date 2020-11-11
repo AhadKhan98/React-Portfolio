@@ -15,7 +15,9 @@ import {
 import Resume from "./pages/Resume";
 import Works from "./pages/Works";
 import Contact from "./pages/Contact";
+import Education from './pages/Education';
 import BackToTop from "./components/BackToTop";
+
 
 const routes = [
     { path: '/', name: 'About', Component: About },
@@ -64,6 +66,9 @@ const AnimatedRoutes = withRouter(({ location }) =>
                 </Route>
                 <Route exact path="/credentials">
                     <Contact />
+                </Route>
+                <Route exact path="/education">
+                    <Education />
                 </Route>
             </Switch>
         </CSSTransition>

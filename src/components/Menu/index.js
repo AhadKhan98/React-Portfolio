@@ -12,6 +12,12 @@ const Menu = () => {
                 About
             </Menu.Item>
             <Menu.Item
+                name={'university'}
+                link="/education"
+            >
+                Education
+            </Menu.Item>
+            <Menu.Item
                 name={"android-list"}
                 link="/experience"
             >
