@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
 import { NavHashLink } from 'react-router-hash-link';
 import './index.scss';
 
@@ -8,33 +7,33 @@ const Menu = () => {
         <ul className="menu">
             <Menu.Item
                 name={"person"}
-                link="/#about"
+                link="/about"
             >
                 About
             </Menu.Item>
             <Menu.Item
                 name={"android-list"}
-                link="/resume#resume"
+                link="/experience"
             >
-                Resume
+                Experience
             </Menu.Item>
             <Menu.Item
                 name={'paintbrush'}
-                link="/works#works"
+                link="/projects"
             >
-                Works
+                Projects
             </Menu.Item>
             <Menu.Item
-                name={'at'}
-                link="/contact#contact"
+                name={'trophy'}
+                link="/credentials"
             >
-                Contact
+                Credentials
             </Menu.Item>
         </ul>
     );
 };
 
-Menu.Item = ({link = '#', children, name }) =>
+Menu.Item = ({ link = '#', children, name }) =>
     <li>
         <NavHashLink
             smooth

@@ -32,14 +32,14 @@ const Profile = () => {
 
             </div>
             <div className="profile__contact">
-                <a href="https://drive.google.com/file/d/1KS59x7gIOht-r6pZ3DaV5kDDxSsqXNML/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1IWOgGfBUzHmFsz5Uj7J596WU5q0_TQyL/view?usp=sharing" target="_blank" rel="noreferrer">
                     <span>
-                        Download CV
+                        Resume
                         </span>
                 </a>
-                <a href="mailto:3mr3baskan@gmail.com">
+                <a href="mailto:zaia@berea.edu">
                     <span>
-                        Contact Me
+                        Email
                         </span>
                 </a>
             </div>

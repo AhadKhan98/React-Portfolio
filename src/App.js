@@ -23,43 +23,47 @@ const routes = [
 ]
 
 function App() {
-  return (
-      <>
-          <BackToTop />
-        <div className="page-wrap">
-            <BgBubbles />
-            <Router>
-                <div className="container">
-                    <Menu/>
-                    <Profile/>
-                    <AnimatedRoutes />
-                </div>
-            </Router>
-        </div>
-      </>
-  );
+    return (
+        <>
+            <BackToTop />
+            <div className="page-wrap">
+                <BgBubbles />
+                <Router>
+                    <div className="container">
+                        <Menu />
+                        <Profile />
+                        <AnimatedRoutes />
+                    </div>
+                </Router>
+            </div>
+        </>
+    );
 }
 
-const  AnimatedRoutes = withRouter(({location}) =>
-     <TransitionGroup className="transition-wrapper">
+const AnimatedRoutes = withRouter(({ location }) =>
+    <TransitionGroup className="transition-wrapper">
         <CSSTransition
             classNames="transition"
             timeout={1000}
             unmountOnExit
             key={location.pathname}
         >
+
             <Switch>
                 <Route exact path="/">
-                    <About/>
+                    <About />
                 </Route>
-                <Route exact path="/resume">
-                    <Resume/>
+                <Route exact path="/about">
+                    <About />
                 </Route>
-                <Route exact path="/works">
-                    <Works/>
+                <Route exact path="/experience">
+                    <Resume />
                 </Route>
-                <Route exact path="/contact">
-                    <Contact/>
+                <Route exact path="/projects">
+                    <Works />
+                </Route>
+                <Route exact path="/credentials">
+                    <Contact />
                 </Route>
             </Switch>
         </CSSTransition>
