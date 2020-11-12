@@ -2,13 +2,12 @@ import React, { useState } from 'react';
 import { projects } from './data';
 import Title from "../common/Title";
 import WorkItem from "./Item";
-import WorksMenu from "./Menu";
 
-const initalState = projects.filter(p => p.type === 'react');
+const initalState = projects.filter(p => p.type === '');
 
 const Works = () => {
     const [selectedProjects, setSelectedProjects] = useState(initalState);
-    const [selectedType, setSelectedType] = useState('react');
+    const [selectedType, setSelectedType] = useState('');
 
     function handleMenuChange(type) {
         setSelectedProjects(projects.filter(p => p.type === type));
@@ -19,18 +18,8 @@ const Works = () => {
     return (
         <div className="page" id="works">
             <Title>
-                Works - Talk is cheap show me the code!
+                Projects I've Worked On
             </Title>
-            <WorksMenu
-                items={[
-                    'react',
-                    'angular',
-                    'vue',
-                    'js'
-                ]}
-                selected={selectedType}
-                clicked={handleMenuChange}
-            />
             <div className="row">
                 {
                     selectedProjects.map(

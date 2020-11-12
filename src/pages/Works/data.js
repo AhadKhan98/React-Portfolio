@@ -7,7 +7,9 @@ export const projects = [
         ],
         sourceCodeLink: 'https://github.com/TheCoderDream/react-portfolio',
         demoLink: 'https://emrebaskan.netlify.app/',
-        type: 'react'
+        description: "test description",
+        type: '',
+        technologies: ['react', 'redux'],
     },
     {
         title: 'React Ecommerce App With Redux',
@@ -18,7 +20,9 @@ export const projects = [
         ],
         sourceCodeLink: 'https://github.com/TheCoderDream/React-Ecommerce-App-with-Redux',
         demoLink: 'http://numberless-leg.surge.sh/',
-        type: 'react'
+        description: "test description",
+        type: '',
+        technologies: ['react', 'redux'],
     },
     {
         title: 'Vue Ecommerce App With Vuex',
@@ -29,7 +33,9 @@ export const projects = [
         ],
         sourceCodeLink: 'https://github.com/TheCoderDream/Vue-Ecommerce-App-with-Vuex',
         demoLink: 'http://sincere-wind.surge.sh/',
-        type: 'vue'
+        description: "test description",
+        type: '',
+        technologies: ['react', 'redux'],
     },
     {
         title: 'Angular Ecommerce App With Ngrx',
@@ -40,7 +46,9 @@ export const projects = [
         ],
         sourceCodeLink: 'https://github.com/TheCoderDream/Angular-Ecommerce-App-with-NGRX',
         demoLink: 'http://delirious-coast.surge.sh/',
-        type: 'angular'
+        description: "test description",
+        type: '',
+        technologies: ['react', 'redux'],
     },
     {
         title: 'React Chat App With Redux And Firebase',
@@ -53,7 +61,9 @@ export const projects = [
         ],
         sourceCodeLink: 'https://github.com/TheCoderDream/React-Chat-App-With-Redux-And-Firebase',
         demoLink: 'https://react-chat-appp.netlify.app/',
-        type: 'react'
+        description: "test description",
+        type: '',
+        technologies: ['react', 'redux'],
     },
     {
         title: 'Angular Chat app',
@@ -66,7 +76,9 @@ export const projects = [
         ],
         sourceCodeLink: 'https://github.com/TheCoderDream/React-Chat-App-With-Redux-And-Firebase',
         demoLink: 'https://react-chat-appp.netlify.app/',
-        type: 'angular'
+        description: "test description",
+        type: '',
+        technologies: ['react', 'redux'],
     },
     {
         title: 'RxJS Clone',
@@ -75,7 +87,8 @@ export const projects = [
         ],
         sourceCodeLink: 'https://github.com/TheCoderDream/rxjs-clone',
         demoLink: 'https://stackblitz.com/edit/rxjs-clone?file=index.ts',
-        type: 'js'
+        type: '',
+        technologies: ['react', 'redux'],
     },
     {
         title: 'Lodash Clone',
@@ -84,6 +97,7 @@ export const projects = [
         ],
         sourceCodeLink: 'https://github.com/TheCoderDream/Lodash-Clone',
         demoLink: '#',
-        type: 'js'
+        type: '',
+        technologies: ['react', 'redux'],
     }
 ]

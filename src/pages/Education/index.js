@@ -17,7 +17,9 @@ const Education = () => {
                 company={'Berea, Kentucky  / U.S.A'}
                 logo={CollegeLogo}
             >
-                Bachelor's Degree in Software Engineering
+                <li> Bachelor of Arts - BA, Computer Science </li>
+                <li> Awarded Full-Tuition Scholarship  </li>
+                <li> Cumulative GPA: 3.4 </li>
             </ResumeItem>
 
         </div>

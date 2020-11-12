@@ -3,9 +3,6 @@ import './index.scss';
 
 const Skills = () => {
 
-
-
-
     return (
         <div className="skills">
             <ul >
