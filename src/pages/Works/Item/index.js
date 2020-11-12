@@ -12,16 +12,20 @@ const WorkItem = ({ images, title, sourceCodeLink, demoLink, description, techno
             <h3>{title}</h3>
             <p>{description}</p>
             <div className="work-item__links">
-                <a href={sourceCodeLink} className="work-item__source-code"><i className="fas fa-code" />Source Code</a>
-                <a href={demoLink} className="work-item__demo"><i className="fas fa-rocket" />Demo</a>
+                <div className="skills">
+                    <h6>TECHNOLOGIES USED:</h6>
+                    <ul >
+                        {technologies.map(tech => (
+                            <li>{tech}</li>
+                        ))}
+                    </ul>
+                </div>
+                <a href={sourceCodeLink} className="work-item__source-code">
+                    <i className="fas fa-code" />Source Code
+                </a>
             </div>
-            <div className="skills">
-                <ul >
-                    {technologies.map(tech => (
-                        <li>{tech}</li>
-                    ))}
-                </ul>
-            </div>
+
+
         </div>
     );
 };

@@ -9,7 +9,7 @@ export const projects = [
         demoLink: 'https://emrebaskan.netlify.app/',
         description: "test description",
         type: '',
-        technologies: ['react', 'redux'],
+        technologies: ['Python', 'JavaScript', 'React', 'Redux', 'NLTK', 'Artificial Intelligence'],
     },
     {
         title: 'React Ecommerce App With Redux',
