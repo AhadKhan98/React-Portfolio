@@ -2,14 +2,17 @@ import React from 'react';
 import './index.scss';
 import Slider from "../../../components/Slider";
 
-const WorkItem = ({ images, title, sourceCodeLink, demoLink, description, technologies }) => {
+
+
+const WorkItem = ({ images, title, sourceCodeLink, description, technologies }) => {
     return (
         <div className="work-item">
+            <h2>{title}</h2>
             <Slider
                 images={images}
                 classNames={'work-item__slider'}
             />
-            <h3>{title}</h3>
+
             <p>{description}</p>
             <div className="work-item__links">
                 <div className="skills">
@@ -20,8 +23,8 @@ const WorkItem = ({ images, title, sourceCodeLink, demoLink, description, techno
                         ))}
                     </ul>
                 </div>
-                <a href={sourceCodeLink} className="work-item__source-code">
-                    <i className="fas fa-code" />Source Code
+                <a href={sourceCodeLink} target="_blank" className="work-item__source-code">
+                    <i className="fas fa-code"><p>Source Code</p></i>
                 </a>
             </div>
 
