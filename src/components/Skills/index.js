@@ -5,17 +5,46 @@ const Skills = () => {
 
     return (
         <div className="skills">
+
             <ul >
-                <li id="react" >React</li>
-                <li id="angular">Angular</li>
-                <li id="vue">Vue</li>
-                <li id="rxjs">Rxjs</li>
-                <li id="redux">Redux</li>
-                <li id="node">Node</li>
-                <li id="ngrx">Ngrx</li>
-                <li id="javascript">JavaScript</li>
+                Front-End Technologies <br />
+                <li >HTML</li>
+                <li >CSS</li>
+                <li >JavaScript</li>
+                <li >React</li>
+                <li >React Native</li>
+                <li >Context API</li>
+                <li >Redux</li>
+                <li >jQuery</li>
+                <li >Bootstrap</li>
+                <li >Axios</li>
+                <br />
+                <br />
+
+                Back-End Technologies <br />
+                <li >Python</li>
+                <li >JavaScript</li>
+                <li >Express JS</li>
+                <li >Node JS</li>
+                <li >Django</li>
+                <li >Flask</li>
+                <li >MVC Architecture</li>
+                <li >SQLite</li>
+                <li >NoSQL</li>
+                <li >Firebase</li>
+                <li >Mongo DB</li>
+                <br />
+                <br />
+
+                Dev-Ops Technologies <br />
+                <li >Git</li>
+                <li >Docker</li>
+                <li >Gradle</li>
+                <li >Kubernetes</li>
             </ul>
-        </div>
+
+
+        </div >
     );
 };
 

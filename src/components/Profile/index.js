@@ -27,7 +27,7 @@ const Profile = () => {
                 />
                 <SocialLinks />
                 <Info icon="location">
-                    KYIV / ISTANBUL
+                    Berea, KY / U.S.A
                 </Info>
 
             </div>

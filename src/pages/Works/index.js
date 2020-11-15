@@ -19,6 +19,7 @@ const Works = () => {
         <div className="page" id="works">
             <Title>
                 Projects I've Worked On
+                <p style={{ "fontSize": "10px", "fontStyle": "italic", "fontWeight": "normal" }}>{selectedProjects.length} and counting..</p>
             </Title>
             <div className="row">
                 {

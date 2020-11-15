@@ -28,7 +28,7 @@ import fl5 from '../../assets/projects/fl5.jpg';
 
 export const projects = [
     {
-        title: `Flyrics`,
+        title: `Flyrics - Lyrics On The Fly`,
         images: [
             fl1,
             fl2,
