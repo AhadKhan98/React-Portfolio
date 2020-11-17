@@ -37,7 +37,7 @@ const Profile = () => {
                         Resume
                         </span>
                 </a>
-                <a href="mailto:zaia@berea.edu">
+                <a href="mailto:ahad_zai@berea.edu">
                     <span>
                         Email
                         </span>

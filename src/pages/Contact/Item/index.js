@@ -13,7 +13,7 @@ const ResumeItem = ({ img, date, title, company, link, }) => {
                     {date}
                 </div>
                 <br />
-                <a href="">View Credential</a>
+                <a href={link} target="_blank">View Credential</a>
             </div>
 
 
