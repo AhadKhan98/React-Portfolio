@@ -15,7 +15,7 @@ const Resume = () => {
             </Title>
             <ResumeItem
                 date={'Sep 2020 - Dec 2020'}
-                title={'Software Engineer Fellowship'}
+                title={'Student Software Engineer'}
                 company={'MLH - Major League Hacking'}
                 logo={mlh}
             >

@@ -11,32 +11,20 @@ const About = () => {
             </Title>
             <div className="row">
                 <div className="column">
-                    <strong>
-                        Hi, I am Emre Baskan
-                    </strong>
                     <p>
-                        Self-taught, self-driven, passionate learner and developer focusing on Angular, React, Vue, Node, and Java Technologies. Looking forward to working with ingenious teams on challenging projects.
+                        I am a highly motivated, and a self-taught Software Engineer.
                         <br /> <br />
-                        I’m an easy going person that works well with everyone. I enjoy being around different types of people and I like to always challenge myself to improve at everything I do.
+                        When I was a child, I would break apart various devices and toys simply to disinter their internal workings and scrutinize their core mechanisms. As I grew older, the inquisitiveness became more potent and thus led me to explore different aspects of Computer Science and develop a meticulous understanding of its prominent facets, such as, Software Engineering, Data Science, Web Development, and Mobile-App Development.
                         <br /><br />
-                        I have a great passion for learning languages and exploring the world and also programming. I have always loved technology and programming. And this is my profession now.
-
+                        I am an easy-going person, and very adaptable at the same time. Working alongside new teams is something that I not only am comfortable with, but greatly enjoy.
+                        <br /><br />
+                        With a strong belief in lifelong learning for both personal and professional reasons, nothing brings me more joy than learning about something that is completely new to me. Whether that be a new programming language, or a new chess opening.
                     </p>
                 </div>
             </div>
-            <Title>
-                My philosophy of programming
-            </Title>
-            <div className="row">
-                <div className="column">
 
-                    <p>
-                        I have a deep understanding of how JavaScript works. I strongly believe that having a solid understanding of core technologies allows developers to master at any frameworks.
-                    </p>
-                </div>
-            </div>
             <Title>
-                Skills
+                Technical Skills
             </Title>
             <Skills />
         </div>

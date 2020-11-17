@@ -1,15 +1,36 @@
 import React from 'react';
 import Title from "../common/Title";
-import ContactForm from "./Form";
+import Item from './Item';
+import { certificates } from './data';
+
+import './index.css';
 
 const Contact = () => {
     return (
         <div className="page" id="contact">
+
             <Title>
-                Contact Me
+                Certifications & Awards
             </Title>
-            <ContactForm/>
-        </div>
+            <br />
+
+            <div className="certificates">
+                {certificates.map(c =>
+                    (
+                        <div className="item">
+                            <Item {...c}></Item>
+                            <div className="line"></div>
+                            <br />
+                        </div>
+
+                    )
+
+                )}
+
+            </div>
+
+
+        </div >
     );
 };
 
