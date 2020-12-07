@@ -4,14 +4,11 @@ import Slider from "../../../components/Slider";
 
 
 
-const WorkItem = ({ images, title, sourceCodeLink, description, technologies }) => {
+const WorkItem = ({ image, title, sourceCodeLink, description, technologies }) => {
     return (
         <div className="work-item">
             <h2>{title}</h2>
-            <Slider
-                images={images}
-                classNames={'work-item__slider'}
-            />
+            <img className="work-item__img" src={image}></img>
 
             <p>{description}</p>
             <div className="work-item__links">

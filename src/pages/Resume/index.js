@@ -21,7 +21,7 @@ const Resume = () => {
             >
                 <li> Deployed 6 fully functional Open-Sourced projects ready for contributions   </li>
                 <li> Utilized a wide array of technologies including Python, JavaScript, React, React-Native, TensorFlow, C# </li>
-                <li> Follwed good coding and git practices including clean code, documentation and maintaining a commit history </li>
+                <li> Followed good coding and git practices including clean code, documentation and maintaining a commit history </li>
                 <li> Effectively communicating with other fellows and mentors and making sure our projects meet the deadlines </li>
             </ResumeItem>
             <ResumeItem
